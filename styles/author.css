@@ -1,0 +1,28 @@
+.author { 
+    width: 400px; 
+    display: grid; 
+    grid-template-rows: auto auto; 
+} 
+
+.author-info { 
+    padding: 16px; 
+    display: grid; 
+    grid-template-columns: auto auto; 
+} 
+
+.author-details { 
+    padding: 16px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    display: grid; 
+    justify-content: center; 
+} 
+
+.author-avator { 
+    height: 128px;
+    width: 128px; 
+    border-radius: 128px; 
+    border: 1px solid black; 
+    background-color: rgb(116, 116, 116); 
+    display: blocks; 
+}

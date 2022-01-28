@@ -1,0 +1,32 @@
+   @import url('./global.css');
+    @import url('./layout.css');
+    @import url('./nav-bar.css');
+
+.post-content {
+    max-width: 800px;
+}
+
+.post-image {
+    width: 100%;
+   display: grid;
+}
+
+
+.post-title {
+    font-size: 40px;
+    padding: 16px;
+    align-self: center;
+}
+.post-image-caption {
+    text-align: end;
+}
+.post-details {
+    padding: 16px 0;
+    color: var(--gray);
+}
+.post-text {
+    margin: 16px 0;
+    color: var(--text-color);
+}
+
+
